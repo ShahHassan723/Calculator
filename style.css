@@ -1,0 +1,29 @@
+.btn{
+      color: aliceblue;
+      background-color: black;
+      border: 2px solid black;    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10rem;
+      height: 3rem;
+      width: 50rem;
+      margin-left: 10rem;
+  }
+
+  @media (max-width: 600px){
+      .btn{
+          width: 90%;
+          margin: 0 auto;
+          gap: 2rem;
+      }
+  }
+
+  button{
+      border-radius: 50%;
+      font-size: xx-large;
+  }
+
+  h1{
+      text-align:center;
+  }
